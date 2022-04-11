@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import MainContent from './components/MainContent';
-import Logo from './components/logo';
+// import Logo from './components/logo';
 
 function App() {
 	const [animeList, SetAnimeList] = useState([]);
@@ -36,7 +36,7 @@ function App() {
 	return (
 		<div className="App">
 			<Header />
-			<Logo />
+			{/* <Logo /> */}
 			<div className="content-wrap">
 				<Sidebar 
 					topAnime={topAnime} />
