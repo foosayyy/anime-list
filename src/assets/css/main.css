@@ -22,13 +22,12 @@ header h1 strong {
   color: #ACC323;
 }
 
-.logo {
+/* .logo {
   position: absolute;
   width: 100px;
-  height: auto;
   left: 5px;
   top: 5px;
-}
+} */
 
 .content-wrap {
   display: -webkit-box;
